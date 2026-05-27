@@ -1,0 +1,32 @@
+(kicad_pcb (version 20221018) (generator "ChatGPT")
+(general (thickness 1.6))
+(paper "A4")
+(layers
+ (0 "F.Cu" signal)
+ (31 "B.Cu" signal)
+ (44 "Edge.Cuts" user)
+)
+
+(gr_rect
+ (start 10 10)
+ (end 130 100)
+ (stroke (width 0.1) (type solid))
+ (fill none)
+ (layer "Edge.Cuts")
+)
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+ (layer "F.Cu")
+ (at 80 20)
+)
+
+(footprint "RFID_RC522:RC522_Module"
+ (layer "F.Cu")
+ (at 30 60)
+)
+
+(footprint "Display:WC1602A"
+ (layer "F.Cu")
+ (at 90 70)
+)
+)

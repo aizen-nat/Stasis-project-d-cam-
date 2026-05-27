@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eagle version="9.6.2">
+<drawing>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="120" y2="0" width="0" layer="20"/>
+<wire x1="120" y1="0" x2="120" y2="90" width="0" layer="20"/>
+<wire x1="120" y1="90" x2="0" y2="90" width="0" layer="20"/>
+<wire x1="0" y1="90" x2="0" y2="0" width="0" layer="20"/>
+<text x="10" y="80" size="2" layer="21">Attendance System PCB</text>
+</plain>
+
+<libraries/>
+<attributes/>
+<variantdefs/>
+<classes>
+<class number="0" name="default" width="0.25" drill="0.6"/>
+</classes>
+
+<designrules name="default"/>
+<autorouter/>
+
+<elements>
+<element name="RPi" library="demo" package="HEADER40" value="RASPBERRY_PI"/>
+<element name="RFID" library="demo" package="RC522" value="RC522"/>
+<element name="LCD" library="demo" package="LCD1602" value="LCD1602"/>
+<element name="RELAY1" library="demo" package="RELAY" value="5V_RELAY"/>
+</elements>
+
+<signals>
+<signal name="GND"/>
+<signal name="5V"/>
+<signal name="3V3"/>
+</signals>
+
+</board>
+</drawing>
+</eagle>
